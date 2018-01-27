@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Map Test</title>
+<link rel="stylesheet" type="text/css" href="jquery.mapify.css">	
+<style type="text/css">
+	area{
+		cursor: pointer;
+	}
+	.mapify-hover{
+		fill:rgba(255,255,255,0.35);
+		stroke: #fff;
+		stroke-width: 2;
+	}
+	
+</style>
+</head>
+<body>
+<img src="map.gif" width="499px" height="512px" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+  <area href="https://lh3.googleusercontent.com/qKwClApETtdH4COelsG72_YxS0ne49yePhkh6npzAMh9o0_8QoCNqOpZHNxoNzvU3lXXI7XqF1C9mxTjN918H4aHXs7UjorJUq2rZ7fDPKqpOwFNn6yhCIkTMwmLn5M6qbsOg5qbdw" alt="babysoul" title="babysoul" download="babysoul" shape="rect" coords="0,0,167,167" />
+  <area href="http://cfile26.uf.tistory.com/image/992D82345A6343361F6541" alt="jiae" title="jiae" download shape="rect" coords="167,0,334,167" />
+  <area href="http://cfile26.uf.tistory.com/image/992D82345A6343361F6541" alt="jisoo" title="jisoo" download shape="rect" coords="334,0,500,167" />
+  <area href="http://cfile26.uf.tistory.com/image/992D82345A6343361F6541" alt="mijoo" title="mijoo" download shape="rect" coords="0,167,167,334" />
+  <area href="http://cfile26.uf.tistory.com/image/992D82345A6343361F6541" alt="kei" title="kei" download shape="rect" coords="334,167,500,334" />
+  <area href="http://cfile26.uf.tistory.com/image/992D82345A6343361F6541" alt="jin" title="jin" download shape="rect" coords="0,334,167,500" />
+  <area href="http://cfile26.uf.tistory.com/image/992D82345A6343361F6541" alt="sujeong" title="sujeong" download shape="rect" coords="167,334,334,500" />
+  <area href="http://cfile26.uf.tistory.com/image/992D82345A6343361F6541" alt="yein" title="yein" download shape="rect" coords="334,334,500,500" />
+  <area href="http://lvonly.tistory.com/" alt="lvonly.tistory.com" title="lvonly.tistory.com" target="_blank" shape="rect" coords="400,499,500,512" />
+</map>
+<script src="jquery.min.js"></script>	
+<script type="text/javascript" src="jquery.mapify.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("img[usemap]").mapify();
+});
+</script>
+</body>
+</html>
